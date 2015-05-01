@@ -8,7 +8,7 @@ class SearchRubenium
 
   def start(inputs)
 
-    SeleniumControls.typeByName("q","Rubenium")
+    SeleniumControls.typeByName("q",inputs)
     SeleniumControls.clickByName("btnG")
     SeleniumControls.waitText("results")
 
