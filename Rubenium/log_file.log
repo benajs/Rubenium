@@ -1,0 +1,10 @@
+# Logfile created on 2015-05-01 12:26:21 +0530 by logger.rb/44203
+I, [2015-05-01T12:26:32.410785 #6388]  INFO -- : Browser Started... 
+Page title is Google in browser chrome 
+I, [2015-05-01T12:26:32.412785 #6388]  INFO -- : Processing Test suite Search Google for Rubenium using class SearchRubenium
+
+I, [2015-05-01T12:26:32.768805 #6388]  INFO -- : Typed text Rubenium in q
+I, [2015-05-01T12:26:33.046821 #6388]  INFO -- : Element clicked by Name  btnG
+E, [2015-05-01T12:26:38.154113 #6388] ERROR -- : Exception thrown: timed out after 5 seconds
+E, [2015-05-01T12:26:38.154113 #6388] ERROR -- : ["C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/selenium-webdriver-2.44.0/lib/selenium/webdriver/common/wait.rb:57:in `until'", "B:/workspace/Rubenium/controls/SeleniumControls.rb:107:in `waitText'", "B:/workspace/Rubenium/TestScripts/SearchRubenium.rb:11:in `start'", "B:/workspace/Rubenium/Controls/StartExecution.rb:43:in `block in <class:StartExecution>'", "C:/Ruby21-x64/lib/ruby/2.1.0/csv.rb:1722:in `each'", "C:/Ruby21-x64/lib/ruby/2.1.0/csv.rb:1122:in `block in foreach'", "C:/Ruby21-x64/lib/ruby/2.1.0/csv.rb:1268:in `open'", "C:/Ruby21-x64/lib/ruby/2.1.0/csv.rb:1121:in `foreach'", "B:/workspace/Rubenium/Controls/StartExecution.rb:37:in `<class:StartExecution>'", "B:/workspace/Rubenium/Controls/StartExecution.rb:1:in `<main>'"]
+I, [2015-05-01T12:26:44.469474 #6388]  INFO -- : Browser closed successfully

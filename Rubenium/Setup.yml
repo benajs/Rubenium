@@ -1,0 +1,10 @@
+# Project URL to run the scripts
+URL: "http://www.google.com/"
+# Browser values can be firefox,chrome,ie,safari
+BROWSER: chrome
+# Test Scripts will be read from the below file
+INPUT_FILE: ./Scripts.csv
+# Directory path of test scripts
+SCRIPT_DIRECTORY: ./TestScripts/
+# Project name that will be displayed in Report
+PROJECT: Rubenium
